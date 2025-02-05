@@ -41,7 +41,7 @@ def get_file_names(dir_name):
     return f_data
 
 def get_freq_table(txt_dir='txt',
-                  pos = ['VERB', 'PRTF', 'NOUN']):
+                  pos = ['VERB', 'PRTF', 'NOUN', 'ADJF']):
     file_data = get_file_names(txt_dir)
 
     pos_dct_lst = []
